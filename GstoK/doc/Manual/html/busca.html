@@ -1,0 +1,54 @@
+<html><head>
+        <title>BuscaST.Net - Simples assim!</title>
+        <script type="text/javascript" src="../js/jquery.js"></script>
+        <script type="text/javascript" src="../js/interface.js"></script>
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <div class="fakeBody">
+            <center>
+            </center><small>
+            </small><table height="100%" width="100%" align="center" border="0">
+                <tbody><tr>
+                        <td valign="middle" align="center"><div class="dock" id="dock">
+                                <div style="left: 477px; width: 320px;" class="dock-container">
+                                    <a style="width: 40px; left: 0px;" class="dock-item" href="http://www.facebook.com/" target="_blank"><img style="display: block; opacity: 0.9999; overflow: visible;" src="../imagens/facebook.png" alt="Facebook"><span style="display: none;"><font color="#000000">Facebook</font></span></a> 
+                                    <a style="width: 40px; left: 40px;" class="dock-item" href="http://www.orkut.com/" target="_blank"><img style="display: block; opacity: 0.9999; overflow: visible;" src="../imagens/orkut.png" alt="Orkut"><span style="display: none;"><font color="#000000">Orkut</font></span></a> 
+                                    <a style="width: 40px; left: 80px;" class="dock-item" href="http://www.gmail.com/" target="_blank"><img style="display: block; opacity: 0.9999; overflow: visible;" src="../imagens/gmail.png" alt="Gmail"><span style="display: none;"><font color="#000000">Gmail</font></span></a> 
+                                    <a style="width: 40px; left: 120px;" class="dock-item" href="http://www.youtube.com/" target="_blank"><img style="display: block; opacity: 0.9999; overflow: visible;" src="../imagens/youtube.png" alt="Youtube"><span style="display: none;"><font color="#000000">Youtube</font></span></a> 
+                                    <a style="width: 40px; left: 160px;" class="dock-item" href="http://www.wikipedia.org/" target="_blank"><img style="display: block; opacity: 0.9999; overflow: visible;" src="../imagens/wiki.png" alt="Wikipedia"><span style="display: none;"><font color="#000000">Wikipedia</font></span></a> 
+                                    <a style="width: 40px; left: 200px;" class="dock-item" href="http://www.hotmail.com/" target="_blank"><img style="display: block; opacity: 0.9999; overflow: visible;" src="../imagens/hotmail.png" alt="Hotmail"><span style="display: none;"><font color="#000000">Hotmail</font></span></a> 
+                                    <a style="width: 40px; left: 240px;" class="dock-item" href="http://login.yahoo.com/" target="_blank"><img style="display: block; opacity: 0.9999; overflow: visible;" src="../imagens/yahoo.png" alt="Yahoo"><span style="display: none;"><font color="#000000">Yahoo</font></span></a> 
+                                    <a style="width: 40px; left: 280px;" class="dock-item" href="http://twitter.com/" target="_blank"><img style="display: block; opacity: 0.9999; overflow: visible;" src="../imagens/twitter.png" alt="Twitter"><span style="display: none;"><font color="#000000">Twitter</font></span></a> 
+                                </div>
+
+                            </div>
+                            <script type="text/javascript">
+	
+                                $(document).ready(
+                                function()
+                                {
+                                    $('#dock').Fisheye(
+                                    {
+                                        maxWidth: 50,
+                                        items: 'a',
+                                        itemsText: 'span',
+                                        container: '.dock-container',
+                                        itemWidth: 40,
+                                        proximity: 90,
+                                        halign : 'center'
+                                    }
+                                )
+                                }
+                            );
+
+                            </script>
+                        </td></tr>
+
+                    <tr><td valign="middle" align="center">
+                        </td></tr>
+                </tbody></table></div>
+    </body>
+
+</html>
